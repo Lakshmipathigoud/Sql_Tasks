@@ -32,10 +32,11 @@ DETERMINISTIC
 BEGIN
     RETURN qty * unit_price;
 END $$
-
 DELIMITER ;
 
 SELECT CalculateTotal(3, 250) AS total_cost;
+
+
 
 DELIMITER $$
 CREATE PROCEDURE CheckOrderValue ( 
@@ -54,6 +55,7 @@ BEGIN
     END IF;
 END $$
 DELIMITER ;
+
 CALL CheckOrderValue(550,3);
 
 
