@@ -1,3 +1,9 @@
+-- 1.Choose a domain (e.g., Library, E-commerce)
+-- 2.Identify entities and relationships
+-- 3.Create tables using CREATE TABLE
+-- 4.Define primary and foreign keys
+
+
 create database pathi;
 use pathi;
 create table Authors(
