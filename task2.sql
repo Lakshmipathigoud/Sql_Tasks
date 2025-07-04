@@ -1,3 +1,7 @@
+-- 1.Use INSERT INTO for adding rows
+-- 2.Handle missing values using NULL or default
+-- 3.Use UPDATE and DELETE with WHERE conditions
+
 Select * from Authors;
 Select * from Orders;
 
